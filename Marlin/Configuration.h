@@ -1052,11 +1052,11 @@ non-belt-synced drives. In this case, a additional configuration has to be done
     //#define E1_DRIVER_TYPE A4988
   #elif ENABLED(SAPPHIRE_PLUS) && NONE(CUSTOM_STEPPER_DRIVERS) && NONE(SAPPHIRE_PLUS_DUAL_Z)
     //Sapphire Plus
-    #define X_DRIVER_TYPE  TMC2208_STANDALONE
-    #define Y_DRIVER_TYPE  TMC2208_STANDALONE
-    #define Z_DRIVER_TYPE  TMC2208_STANDALONE
+    #define X_DRIVER_TYPE  TMC2208
+    #define Y_DRIVER_TYPE  TMC2208
+    #define Z_DRIVER_TYPE  TMC2208
     //#define Z2_DRIVER_TYPE A4988
-    #define E0_DRIVER_TYPE TMC2208_STANDALONE
+    #define E0_DRIVER_TYPE TMC2208
     //#define E1_DRIVER_TYPE A4988
 
   #elif ENABLED(SAPPHIRE_PLUS_DUAL_Z) && NONE(CUSTOM_STEPPER_DRIVERS)
